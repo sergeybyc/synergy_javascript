@@ -104,7 +104,7 @@ function Slider(now, direction) {
 	}
 }
 
-document.getElementById("sign").innerHTML = '02 декабря 2023. Итоговое домашнее задание JavaScript.';
+document.getElementById("sign").innerHTML = 'Стек технологий JavaScript. Практическое задание №1';
 
 
 
