@@ -1,0 +1,35 @@
+.task_1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+#task_1 {
+/*	transition: all .2s linear;*/
+	display: flex;
+}
+
+/*Курсор*/
+#crosshair {
+	border-left: 2px solid grey;
+	height: 105px;
+	margin-left: 7px;
+	
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/*h1 helloworld*/
+#helloworld {
+
+	color: #ff5f5f;
+	font-size: 65px;
+	font-weight: 700;
+	font-family: 'Montserrat';
+	padding-left: 10px;
+}

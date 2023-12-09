@@ -1,0 +1,57 @@
+
+.hidenav { 
+	visibility: hidden; 
+/*	opacity: 0; */
+/*	transition: all .3s ease-out;*/
+}
+
+.shownav { 
+	display: flex;
+	visibility: visible; 
+/*	opacity: 1;*/
+	width: 5vw;
+}
+
+/*Нужно для анимации*/
+.display_none {
+	display: none;
+	/*height: 0;*/
+}
+
+#next:hover, #prev:hover {
+	-webkit-box-shadow: 0 0 10px #cecece;
+	-moz-box-shadow: 0 0 10px #cecece;
+	box-shadow: 0 0 10px #cecece;
+	color: #007c85;
+/*	border: 1px solid #007c85;*/
+	transition: all .1s ease-in;
+	font-weight: 300;
+}
+
+#next, #prev {
+	transition: all .3s linear;
+	height: 60px;
+	font-family: monospace; 
+	font-weight: 300; 
+	font-size: 30px; 
+	color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
+/*Переходы*/
+.next {
+	transform: translateX(100%);
+	transition: transform ease-out .3s;
+}
+
+.prev {
+	transform: translateX(-100%);
+	transition: transform ease-out .3s;
+}
+.clicked {
+	transform: translateX(0);
+}

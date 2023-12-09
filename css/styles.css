@@ -1,0 +1,57 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-family: 'segoe ui';
+/*	background-color: #ebedf0;*/
+	overflow: hidden;
+}
+#header {
+	height: 15vh;
+}
+#works { 
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	height: 80vh;
+	justify-content: center;
+}
+
+.nav_buttons { 
+	text-decoration: none;
+	margin: 0;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content {
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+
+#sign {
+	height: 5vh;
+/*	margin: 30px;*/
+	font-size: 15px;
+	font-family: 'Montserrat';
+/*	font-family: monospace;*/
+}
+
+
+/*Заголовок с номерами заданий*/
+#title {
+	font-size: 35px; 
+	font-weight: 300;
+	font-family: 'Montserrat';
+	margin: 25px 0;
+}

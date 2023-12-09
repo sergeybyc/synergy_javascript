@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/task1.css">
+	<link rel="stylesheet" type="text/css" href="css/task2.css">
+	<link rel="stylesheet" type="text/css" href="css/task3.css">
+	<link rel="stylesheet" type="text/css" href="css/task4.css">
+	<link rel="stylesheet" type="text/css" href="css/task5.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="content">
+		<div id="header">
+			<h1 id="title"></h1>
+			<div class="nav_buttons">
+			<button id="prev" href="#" onclick="prevSlide()" onmousedown="colorizeOn('prev')" onmouseup="colorizeOff('prev')">&#8592;</button>
+			<button id="next" href="#" onclick="nextSlide()" onmousedown="colorizeOn('next')" onmouseup="colorizeOff('next')">&#8594;</button>
+			</div>
+		</div>
+		<div id="works">
+			<div id="task_1" class="task_1 im_hidden"></div>
+			<div id="task_2" class="task_2 im_hidden"></div>
+			<div id="task_3" class="task_3 im_hidden" onclick="changeForm()"></div>
+			<div id="task_4" class="task_4 im_hidden display_none prev">
+				<h1 id=calcname></h1>
+				<h3 id="minidisplay"></h3>
+				<h2 id="display"></h2>
+				<div class="buttons">
+					<div class="button">
+						<button onclick="test.c()" id="c" onmousedown="mouseDown('c')" onmouseup="mouseUp('c')">C</button>
+						<button onclick="test.start(7)" id="seven" onmousedown="mouseDown('seven')" onmouseup="mouseUp('seven')">7</button>
+						<button onclick="test.start(4)" id="four" onmousedown="mouseDown('four')" onmouseup="mouseUp('four')" >4</button>
+						<button onclick="test.start(1)" id="one" onmousedown="mouseDown('one')" onmouseup="mouseUp('one')" >1</button>
+						<button onclick="test.negative()" id="plusminus" onmousedown="mouseDown('plusminus')" onmouseup="mouseUp('plusminus')" >±</button>
+					</div>
+					<div class="button">
+						<button onclick="test.ce()" id="ce" onmousedown="mouseDown('ce')" onmouseup="mouseUp('ce')" >CE</button>
+						<button onclick="test.start(8)" id="eight" onmousedown="mouseDown('eight')" onmouseup="mouseUp('eight')" >8</button>
+						<button onclick="test.start(5)" id="five" onmousedown="mouseDown('five')" onmouseup="mouseUp('five')" >5</button>
+						<button onclick="test.start(2)" id="two"  onmousedown="mouseDown('two')" onmouseup="mouseUp('two')">2</button>
+						<button onclick="test.start(0)" id="zero"  onmousedown="mouseDown('zero')" onmouseup="mouseUp('zero')">0</button>
+					</div>
+					<div class="button">
+						<button onclick="test.setOperation('Del')" id="Del" onmousedown="mouseDown('Del')" onmouseup="mouseUp('Del')" >Del</button>
+						<button onclick="test.start(9)" id="nine" onmousedown="mouseDown('nine')" onmouseup="mouseUp('nine')" >9</button>
+						<button onclick="test.start(6)" id="six" onmousedown="mouseDown('six')" onmouseup="mouseUp('six')" >6</button>
+						<button onclick="test.start(3)" id="three" onmousedown="mouseDown('three')" onmouseup="mouseUp('three')" >3</button>
+						<button onclick="test.start('.')" id="dot" onmousedown="mouseDown('dot')" onmouseup="mouseUp('dot')" >,</button>
+					</div>
+					<div class="button">
+						<button onclick="test.setOperation('mnoj')" id="mnoj" onmousedown="mouseDown('mnoj')" onmouseup="mouseUp('mnoj')" >*</button>
+						<button onclick="test.setOperation('division')" id="division" onmousedown="mouseDown('division')" onmouseup="mouseUp('division')">÷</button>
+						<button onclick="test.setOperation('minus')" id="minus" onmousedown="mouseDown('minus')" onmouseup="mouseUp('minus')">–</button>
+						<button onclick="test.setOperation('plus')" id="plus" onmousedown="mouseDown('plus')" onmouseup="mouseUp('plus')">+</button>
+						<button onclick="test.ravno()" id="ravno" onmousedown="mouseDown('ravno')" onmouseup="mouseUp('ravno')">═</button>
+					</div>
+				</div>
+			</div>
+			<div id="task_5" class="task_5 im_hidden"></div>
+		</div>
+		<div id="sign">
+		</div>
+	</div>
+	
+</body>
+<script type="text/javascript" src="js/task1.js"></script>
+<script type="text/javascript" src="js/task2.js"></script>
+<script type="text/javascript" src="js/task3.js"></script>
+<script type="text/javascript" src="js/task4.js"></script>
+<script type="text/javascript" src="js/task5.js"></script>
+<script type="text/javascript" src="js/nav.js"></script>
+</html>

@@ -1,0 +1,14 @@
+#task_2 {
+	/*transition: all .2s linear;*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.task_2 {
+	display: flex;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

@@ -1,0 +1,83 @@
+#task_4 { 
+	/*transition: all .2s linear;*/
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	border: 1px solid #cecece;
+	box-shadow: 0 0 15px #ccc;
+	border-radius: 5px;
+	background: #f3f3f3;
+}
+
+#calcname {
+	font-size: 21px;
+	margin-left: 18px;
+	font-family: 'segoe ui';
+	font-weight: 400;
+}
+
+.im_hidden { 
+	visibility: hidden; 
+	opacity: 0;
+	transform: translateX(0);
+	height: 0;
+}
+.im_showed { 
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .3s ease-out;
+}
+
+#display {
+	width: auto;
+	height: 50px;
+	text-align: right;
+	font-size: 45px;
+	margin-right: 10px;
+	font-weight: 500;
+}
+#minidisplay {
+	width: auto;
+	height: 30px;
+	text-align: right;
+	font-size: 25px;
+	margin-right: 10px;
+	font-weight: 500;
+	color: grey;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.pressed {
+	background: grey;
+}
+button {
+	margin: 2px;
+	width: 70px;
+	height: 60px;
+	background: white;
+	font-size: 20px;
+	border: 1px solid #cecece;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #ccc;
+	font-weight: 400;
+	font-family: 'segoe ui';
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+button:hover {
+	border: 1px solid #007c85;
+}
+
+#ravno {
+	background: #007c85;
+	color: white;
+}
