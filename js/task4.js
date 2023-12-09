@@ -182,11 +182,11 @@ class Calculator {
 	
 	}
 	negative() {
-		if (a == undefined) {
-			a = 0;
-			this.display(a)
-			this.miniDisplay(a)
-		}
+		// if (a == undefined) {
+		// 	a = 0;
+		// 	this.display(a)
+		// 	this.miniDisplay(a)
+		// }
 		if (operation == undefined && a && negative == false) {
 			console.log('a')
 			if (negative == false) {
